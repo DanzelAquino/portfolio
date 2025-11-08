@@ -1,0 +1,9 @@
+export { default as knowles1 } from './knowles1.jpg';
+export { default as knowles2 } from './knowles2.jpg';
+export { default as knowles3 } from './knowles3.jpg';
+export { default as knowles4 } from './knowles4.jpg';
+export { default as knowles5 } from './knowles5.jpg';
+export { default as knowles6 } from './knowles6.jpg';
+export { default as knowles7 } from './knowles7.jpg';
+export { default as knowles8 } from './knowles8.jpg';
+export { default as knowles9 } from './knowles9.jpg';

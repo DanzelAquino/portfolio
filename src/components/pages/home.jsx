@@ -1,14 +1,21 @@
-import Greeting from "../sections/greeting";
-import About from "../sections/about";
-import Skills from "../sections/skills";
+import Greeting from "../sections/home/Greeting";
+import About from "../sections/home/About";
+import Skills from "../sections/home/Skills";
+import CallToAction from "../sections/home/CTA";
+import Footer from "../sections/shared/Footer";
+import { useScrollLock } from "./useScrollLock";
 
 const Home = () => {
+  useScrollLock(false);
+
   return (
-    <section className="bg-blue-600 text-white">
+    <div className="min-h-screen bg-gradient-to-br from-[#edeeef] to-[#c5cddf] overflow-x-hidden">
       <Greeting />
       <About />
       <Skills />
-    </section>
+      <CallToAction />
+      <Footer />
+    </div>
   );
 };
 
